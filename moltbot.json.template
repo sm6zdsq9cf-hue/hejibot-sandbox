@@ -1,7 +1,10 @@
 {
   "agents": {
     "defaults": {
-      "workspace": "/root/clawd"
+      "workspace": "/root/clawd",
+      "model": {
+        "primary": "openai/gpt-4o-mini"
+      }
     }
   },
   "gateway": {
